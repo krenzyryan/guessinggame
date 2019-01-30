@@ -1,6 +1,7 @@
 #!/bin/bash
+count=`ls | wc -l`
 
-count=5
+#start program
 
 read -p "How many files are in the current directory?" guess
 
